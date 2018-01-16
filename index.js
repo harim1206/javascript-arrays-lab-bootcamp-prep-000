@@ -28,26 +28,26 @@ function appendKitten(name){
   var newArr=[]
   newArr = kittens.push(name)
   return newArr
-  
+
 }
 
 function prependKitten(name){
   var newArr=[]
   newArr = kittens.unshift(name)
   return newArr
-  
+
 }
 
 function removeLastKitten(){
   var newArr=[]
   newArr = kittens.pop()
   return newArr
-  
+
 }
 
 function removeFirstKitten(){
   var newArr=[]
   newArr = kittens.shift()
   return newArr
-  
+
 }
